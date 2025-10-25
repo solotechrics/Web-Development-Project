@@ -1,0 +1,22 @@
+body {
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+.card {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 100px;
+}
+
+.placeholder {
+  width: 100%;
+  border: 5px solid white;
+}
+
+h1 {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
