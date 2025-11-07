@@ -1,0 +1,93 @@
+.hero-header {
+  background: linear-gradient(90deg, #000000, #737373);
+  color: white;
+}
+
+.hero-header .nav-link {
+  color: white !important;
+}
+
+.hero-img {
+  border: none;
+  mix-blend-mode: lighten; /* optional for blending with dark backgrounds */
+}
+
+.my-btn {
+  background-color: rgb(114, 112, 112);
+  color: white;
+}
+
+.my-btn:hover {
+  background-color: #494848;
+  color: white;
+}
+
+.project-bcg {
+    background: linear-gradient(90deg, #000000, #ffffff);
+  color: white;
+}
+
+.about-heading {
+  color: #4b4f71;
+}
+
+.about-text{
+  color: #656a97;
+  font-weight: 700;
+}
+
+.about-btn1 {
+  background-color: #4b4f71;
+  color: white;
+}
+
+.about-btn1:hover {
+  background-color: white;
+  color: #4b4f71;
+  border: 2px solid #4b4f71;
+}
+
+.about-btn2 {
+  background-color: white;
+  color: #4b4f71;
+  border: 2px solid #4b4f71;
+}
+
+.about-btn2:hover {
+ background-color: #4b4f71;
+  color: white; 
+}
+
+.card-body {
+background-color: rgb(241, 239, 239);
+  color: #656a97;
+  text-align: left;
+}
+
+/* .image-container {
+  position: relative;
+  width: 700px; 
+  height: 500px;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: #474c6d; 
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background: white;
+  clip-path: path("M0,40 C80,100 160,-20 320,40 L320,120 L0,120 Z");
+} */
