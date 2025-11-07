@@ -33,6 +33,15 @@ body {
 }
 
 /* ===== HERO SECTION ===== */
+.hero-container {
+  text-align: left;
+  font-size: clamp(1rem, 2vw + 0.5rem, 1.8rem);
+  font-weight: 600;
+  color: #212529;
+  position: relative;
+  height: 60px;
+}
+
 .hero {
   text-align: center;
   padding-top: 8rem; /* Adjust for navbar */
@@ -46,10 +55,57 @@ body {
   margin-bottom: 1rem;
 }
 
-.hero h2 {
-  font-size: 1.5rem;
-  color: white;
-}
+
+.hero-text {
+      border-right: 2px solid #212529;
+      white-space: nowrap;
+      overflow: hidden;
+      display: inline-block;
+      animation: blink 0.75s step-end infinite;
+      color: white;
+      font-size: 24px;
+    }
+
+    @keyframes blink {
+      50% { border-color: transparent; }
+    }
+
+    /* Typewriter text animation */
+    .text1, .text2, .text3 {
+      position: absolute;
+      opacity: 0;
+    }
+
+    .text1 {
+      animation: typing1 20s steps(30, end) infinite;
+    }
+
+    .text2 {
+      animation: typing2 20s steps(30, end) infinite;
+    }
+
+    .text3 {
+      animation: typing3 20s steps(30, end) infinite;
+    }
+
+    /* keyframes for each text */
+    @keyframes typing1 {
+      0%, 5% { opacity: 0; width: 0; }
+      5%, 25% { opacity: 1; width: 100%; }
+      30%, 100% { opacity: 0; width: 0; }
+    }
+
+    @keyframes typing2 {
+      0%, 30% { opacity: 0; width: 0; }
+      35%, 55% { opacity: 1; width: 100%; }
+      60%, 100% { opacity: 0; width: 0; }
+    }
+
+    @keyframes typing3 {
+      0%, 60% { opacity: 0; width: 0; }
+      65%, 85% { opacity: 1; width: 100%; }
+      90%, 100% { opacity: 0; width: 0; }
+    }
 
 .hero img {
   max-width: 80%;
@@ -202,6 +258,7 @@ section h3 {
     width: 80%;
     margin-bottom: 0.75rem;
   }
+  
 }
 
 /* ===== FOOTER ===== */
