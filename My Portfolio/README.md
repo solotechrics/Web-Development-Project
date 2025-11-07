@@ -7,7 +7,7 @@ Welcome to my personal **Portfolio Website**, built to showcase my skills, proje
 ## 🚀 Live Demo
 
 You can view the live site here:
-👉 [**My Portfolio**](#) *(Add your GitHub Pages or hosting link once deployed)*
+👉 [**My Portfolio**](https://solotechrics.github.io/Web-Development-Project/)
 
 ---
 
